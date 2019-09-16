@@ -250,25 +250,14 @@
 
 			<nav class="navbar navbar-transparent navbar-absolute">
     <div class="container-fluid">
-        <div class="navbar-minimize">
-            <button id="minimizeSidebar" class="btn btn-round btn-white btn-fill btn-just-icon">
-                <i class="material-icons visible-on-sidebar-regular">more_vert</i>
-                <i class="material-icons visible-on-sidebar-mini">view_list</i>
-            </button>
-        </div>
+        
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#"> Profile </a>
+             <h2> Profile </h2>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
+                    <a href="../pages/memberlogins.html" class=" " data-toggle=" ">
                         <i class="material-icons">dashboard</i>
                         <p class="hidden-lg hidden-md">Dashboard</p>
                     </a>
@@ -291,7 +280,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
+                    <a href="../pages/memberlogins.html" class=" " data-toggle=" ">
                        <i class="material-icons">person</i>
                        <p class="hidden-lg hidden-md">Profile</p>
                     </a>
@@ -314,9 +303,112 @@
     </div>
 </nav>
 
+<div class="content mytopzero">
+					<div class="container-fluid">
+<div class="row topcard">
+	<div class="col-lg-3 col-md-6 col-sm-6">
+		<div class="card card-stats">
+			<div class="card-header" data-background-color="orange">
+				<i class="material-icons">pause</i>
+			</div>
+			<div class="card-content">
+				<p class="category">Cse Status</p>
+				<h3 class="card-title">Paused</h3>
+			</div>
+			<div class="card-footer">
+				<div class="stats">
+					<i class="material-icons text-danger">warning</i> <a href="#pablo">342</a>
+				</div>
+			</div>
+		</div>
+	</div>
 
+	<div class="col-lg-3 col-md-6 col-sm-6">
+		<div class="card card-stats">
+			<div class="card-header" data-background-color="rose">
+				<i class="material-icons">stop</i>
+			</div>
+			<div class="card-content">
+				<p class="category">Cse Status</p>
+				<h3 class="card-title">Canceled</h3>
+			</div>
+			<div class="card-footer">
+				<div class="stats">
+					<i class="material-icons">local_offer</i> 45
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="col-lg-3 col-md-6 col-sm-6">
+		<div class="card card-stats">
+			<div class="card-header" data-background-color="green">
+				<i class="material-icons">sync</i>
+			</div>
+			<div class="card-content">
+				<p class="category">Cse Status</p>
+				<h3 class="card-title">In Progress</h3>
+			</div>
+			<div class="card-footer">
+				<div class="stats">
+					<i class="material-icons">date_range</i>34
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-lg-3 col-md-6 col-sm-6">
+		<div class="card card-stats">
+			<div class="card-header" data-background-color="blue">
+				<i class="fa fa-twitter"></i>
+			</div>
+			<div class="card-content">
+				<p class="category">Followers</p>
+				<h3 class="card-title">+245</h3>
+			</div>
+			<div class="card-footer">
+				<div class="stats">
+					<i class="material-icons">update</i> Just Updated
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="col-lg-4  ">
+		<div class="card card-stats timercolntroll">
+		 
+			<div class="card-content">
+				<div class="card-header" onClick="timer.start(1000)" data-background-color="green">
+				<i class="material-icons">play_arrow</i>
+			</div>
+			<div class="card-header" onClick="timer.reset(0)" data-background-color="red">
+				<i class="material-icons">stop</i>
+			</div>
+			<div class="card-header" onClick="timer.stop()" data-background-color="orange">
+				<i class="material-icons">pause</i>
+			</div>
 			
-
+			 
+			</div>
+			<div class="card-footer">
+						<div class="timer">
+            <span class="hour">00</span>:<span class="minute">00</span>:<span class="second">10</span>
+			<span class="my">HH</span>:<span class="my">MM</span>:<span class="my">SS</span>
+        </div>
+        
+			</div>
+		</div>
+	</div>
+</div>	</div>
+</div>
+			<div class="content minheightun">
+					<div class="container-fluid">
+				<div class="row">	
+ <div class="navbar-header">
+             <h2> Profile </h2>
+        </div></div>	</div>
+</div>
 				<div class="content">
 					<div class="container-fluid">
 				<div class="row">
@@ -506,8 +598,157 @@
 	.tab-pane td .myuorang {padding: 12px 30px !IMPORTANT;background-color:#fb9006;
     
 }
-body .tab-pane td .myuorang:hover{background-color:#fb9006;box-shadow:0 14px 26px -12px rgb(252, 146, 9), 0 4px 23px 0px rgb(252, 145, 7), 0 8px 10px -5px rgb(252, 145, 8);}
+body .tab-pane td .myuorang:hover{background-color:#fb9006;box-shadow:0 14px 26px -12px rgb(252, 146, 9), 0 4px 23px 0px rgb(252, 145, 7), 0 8px 10px -5px rgb(252, 145, 8);} .main-panel > .content.mytopzero {
+    margin-top: 0px; min-height: auto;}
+	
+	.mytopzero h3.card-title {
+    font-size: 19px;
+}.main-panel > .content.mytopzero {
+    margin-top: 94px;}
+.main-panel > .content.minheightun,.main-panel > .content{min-height:auto !important;    margin-top: 0px;
+    padding: 0px 15px;}
 </style>
-
+<style>div.timer {
+    border:0px #666666 solid;
+    width:190px;
+    height:50px;
+    line-height:50px;
+    font-size:36px;
+    font-family:"Courier New", Courier, monospace;
+    text-align:center;
+    margin:5px;
+}span.hour,span.second,span.minute {
+    font-weight: bold;
+}
+div.timer span.my{font-size: 20px;
+    font-weight: bold;
+    padding: 0px 11px;}
+	
+	.timercolntroll.card-stats .card-header i{font-size: 26px;
+    line-height: 36px;
+    width: 36px;
+    height: 36px;}
+.timercolntroll.card-stats .card-header {    cursor: pointer}
+</style>
+<script>function _timer(callback)
+{
+    var time = 0;     //  The default time of the timer
+    var mode = 1;     //    Mode: count up or count down
+    var status = 0;    //    Status: timer is running or stoped
+    var timer_id;    //    This is used by setInterval function
+    
+    // this will start the timer ex. start the timer with 1 second interval timer.start(1000) 
+    this.start = function(interval)
+    {
+        interval = (typeof(interval) !== 'undefined') ? interval : 1000;
+ 
+        if(status == 0)
+        {
+            status = 1;
+            timer_id = setInterval(function()
+            {
+                switch(mode)
+                {
+                    default:
+                    if(time)
+                    {
+                        time--;
+                        generateTime();
+                        if(typeof(callback) === 'function') callback(time);
+                    }
+                    break;
+                    
+                    case 1:
+                    if(time < 86400)
+                    {
+                        time++;
+                        generateTime();
+                        if(typeof(callback) === 'function') callback(time);
+                    }
+                    break;
+                }
+            }, interval);
+        }
+    }
+    
+    //  Same as the name, this will stop or pause the timer ex. timer.stop()
+    this.stop =  function()
+    {
+        if(status == 1)
+        {
+            status = 0;
+            clearInterval(timer_id);
+        }
+    }
+    
+    // Reset the timer to zero or reset it to your own custom time ex. reset to zero second timer.reset(0)
+    this.reset =  function(sec)
+    {
+        sec = (typeof(sec) !== 'undefined') ? sec : 0;
+        time = sec;
+        generateTime(time);
+    }
+    
+    // Change the mode of the timer, count-up (1) or countdown (0)
+    this.mode = function(tmode)
+    {
+        mode = tmode;
+    }
+    
+    // This methode return the current value of the timer
+    this.getTime = function()
+    {
+        return time;
+    }
+    
+    // This methode return the current mode of the timer count-up (1) or countdown (0)
+    this.getMode = function()
+    {
+        return mode;
+    }
+    
+    // This methode return the status of the timer running (1) or stoped (1)
+    this.getStatus
+    {
+        return status;
+    }
+    
+    // This methode will render the time variable to hour:minute:second format
+    function generateTime()
+    {
+        var second = time % 60;
+        var minute = Math.floor(time / 60) % 60;
+        var hour = Math.floor(time / 3600) % 60;
+        
+        second = (second < 10) ? '0'+second : second;
+        minute = (minute < 10) ? '0'+minute : minute;
+        hour = (hour < 10) ? '0'+hour : hour;
+        
+        $('div.timer span.second').html(second);
+        $('div.timer span.minute').html(minute);
+        $('div.timer span.hour').html(hour);
+    }
+}
+ 
+// example use
+var timer;
+ 
+$(document).ready(function(e) 
+{
+    timer = new _timer
+    (
+        function(time)
+        {
+            if(time == 0)
+            {
+                timer.stop();
+                alert('time out');
+            }
+        }
+    );
+    timer.reset(0);
+    timer.mode(1);
+});
+</script>
 
 </html>
